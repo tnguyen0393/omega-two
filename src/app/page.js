@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import cardDeck from "../data/cards.json";
 import Card from "./components/Card";
 import styles from "./page.module.css";
